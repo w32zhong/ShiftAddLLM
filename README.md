@@ -67,9 +67,14 @@ To reduce accuracy loss, we present a multi-objective optimization method to min
 
 ## Basic Usage
 ### Environment Setup
-```
-conda env create -f environment.yml
+```sh
+pip install torchtune --extra-index-url https://download.pytorch.org/whl/cu121
+#pip install torchao --extra-index-url https://download.pytorch.org/whl/cu121
+
+conda env create -n shiftaddllm
 conda activate shiftaddllm
+conda env update --file environment.yml --prune
+
 export PYTHONPATH='YOUR-PATH-TO-SHIFTADDLLM-REPO'
 ```
 

@@ -199,9 +199,7 @@ dependencies:
     - tokenizers==0.15.2
     - tomli==2.0.1
     - torch==2.2.2
-    - torchao-nightly==2024.3.25
     - torchaudio==2.2.2
-    - torchtune==0.0.1
     - torchvision==0.17.2
     - tornado==6.4
     - tqdm==4.66.1
