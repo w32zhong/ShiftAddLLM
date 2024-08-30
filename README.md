@@ -76,6 +76,7 @@ pip install torchtune --extra-index-url https://download.pytorch.org/whl/cu121
 conda env update --file environment.yml --prune
 
 export PYTHONPATH='YOUR-PATH-TO-SHIFTADDLLM-REPO'
+python model/opt.py facebook/opt-6.7b --temp_storage ShiftAddLLM/opt6.7b-2bit-lat
 ```
 
 ### Core Optimization Options
